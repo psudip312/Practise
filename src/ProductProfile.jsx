@@ -10,7 +10,9 @@ const ProductProfile = () => {
   return (
     <div className="px-20">
       <div className="flex">
-        <div className="flex-1 w-2/5">This is image Section</div>
+        <div className="flex-1 w-2/5 flex flex-col justify-center">
+          <img src={img1} />
+        </div>
         <div className="flex-1 w-3/5 p-4 flex flex-col gap-4">
           <div className="flex justify-end p-2">
             <AiOutlineHeart
