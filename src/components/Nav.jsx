@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <div>
-      <header className="sm:px-16 px-8 py-8 absolute  w-full bg-slate-300">
+      <header className="sm:px-16 px-8 py-8 w-full bg-slate-300">
         <nav>
           <div className="max-w-7xl mx-auto">
             <div className="flex mx-auto justify-between w-5/6 ">

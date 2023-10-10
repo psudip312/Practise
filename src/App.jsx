@@ -6,13 +6,15 @@ import { AiOutlineShoppingCart } from "react-icons/Ai";
 import CartCountBadge from "./CartCountBadge";
 import logo from "./assets/logo.png";
 import { BsClock, BsTelephoneOutbound } from "react-icons/Bs";
+import Hero from "./Hero";
+import ReButton from "./components/button/ReButton";
+import Service from "./Service";
 
 function App() {
   return (
     <>
       <div className="hidden lg:block">
         <div className=" pt-8 flex items-center justify-around">
-          {/* Check above line */}
           <a href="/">
             <img
               src={logo}
@@ -70,6 +72,8 @@ function App() {
         </div>
       </div>
       <Nav />
+      <Hero />
+      <Service />
     </>
   );
 }
