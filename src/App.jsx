@@ -9,6 +9,7 @@ import { BsClock, BsTelephoneOutbound } from "react-icons/Bs";
 import Hero from "./Hero";
 import ReButton from "./components/button/ReButton";
 import Service from "./Service";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
       <Nav />
       <Hero />
       <Service />
+      <Footer />
     </>
   );
 }
